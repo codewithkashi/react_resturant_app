@@ -1,0 +1,74 @@
+.app__laurels {
+    background-color: var(--color-black);
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.app__laurels_content-title {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    line-height: 29.9px;
+    font-size: 23px;
+}
+
+.app__laurels-img{
+    width: 80px;
+    margin-right: 2rem;
+}
+
+.app__laurels-medals{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.app__laurels-medals_item{
+    width: 300px;
+    margin: 2rem 1rem;
+}
+
+.app__laurels-hero{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.app__laurels-hero img{
+    width: 410px;
+}
+
+@media screen and (max-width:950px){
+       .app__laurels{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       }
+}
+
+@media screen and (max-width:450px){
+    .app__laurels-hero img{
+        width: 200px;
+    }
+
+    .app__laurels{
+        text-align: center;
+    }
+
+    .app__laurels-img{
+        width: 40px;
+        margin: 0 1rem 0 0;
+    }
+
+    .app__laurels-medals_item{
+        text-align: left;
+        width: 200px;
+    }
+}

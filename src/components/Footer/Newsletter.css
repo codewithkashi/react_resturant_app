@@ -1,0 +1,27 @@
+.app__newsletter{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+.app__newsletter span{
+    padding: 1rem;
+    width: 350px;
+}
+.app__newsletter_img{
+    width: 220px;
+    margin-bottom: 1rem;
+}
+
+.app__newsletter-social_logos{
+    padding: 2rem 0;
+}
+
+.app__social-icon{
+    color: var(--color-white);
+    font-size: 1.3rem;
+    margin: 1rem;
+}

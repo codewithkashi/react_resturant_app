@@ -1,0 +1,31 @@
+.app__findus {
+    background-color: var(--color-black);
+}
+
+
+.app__wrapper_img img {
+    width: 80%;
+}
+
+.app__findus_openinghours {
+    margin: 0.2rem 0;
+}
+
+.app__findus_heading_opening {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    line-height: 48px;
+    font-size: 32px;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width:650px) {
+    .app__findus-h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+}

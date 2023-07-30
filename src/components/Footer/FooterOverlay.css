@@ -1,0 +1,42 @@
+.app__footerOvelay {
+    flex-direction: column;
+    border: 1px solid var(--color-golden);
+    padding-top: 2rem;
+}
+
+.app__searchbar {
+    background: transparent;
+    color: var(--color-golden);
+    font-family: var(--font-base);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
+    padding: 0.5rem 1.5rem;
+    border:  1px solid var(--color-golden);
+    outline: transparent;
+    min-width: 50vw;
+    margin: 4rem 1rem;
+}
+
+.app__search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:550px){
+    .app__search{
+        flex-direction: column;
+    }
+
+    .app__searchbar{
+        min-width: 100%;
+    }
+}
+
+@media screen and (max-width:300px){
+    .app__searchbar{
+        min-width: 80%;
+    }
+}

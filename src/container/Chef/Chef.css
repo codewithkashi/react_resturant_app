@@ -1,0 +1,40 @@
+.app__chef {
+    background-color: var(--color-black);
+    padding: 4rem 2rem;
+}
+
+.app__chef-h1 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-size: 64px;
+    line-height: 83.2px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+}
+
+
+.app__chef-aboutchef {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    ;
+    line-height: 29.9px;
+    font-size: 23px;
+}
+
+.app__chef-sign{
+    width: 150px;
+    margin-top: 2rem;
+}
+.app__wrapper_img img {
+    width: 80%;
+}
+
+@media screen and (max-width:650px) {
+    .app__chef-h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+}
